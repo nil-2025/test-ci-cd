@@ -9,7 +9,7 @@ on:
 env:
   RESOURCE-GROUP: demoapp 
   LOCATION: "canadacentral"
-  TEMPLATE-FILE: infra/webapp.bicep
+  
   SUBSCRIPTION-ID: a8861198-54ba-4264-9516-a39c5d752a18
   AZURE_WEBAPP_NAME: current-time-service
   AZURE_WEBAPP_PACKAGE_PATH: "./publish"
